@@ -12,7 +12,7 @@ def reproducir_mp3(archivo_mp3):
 def predicciones_del_futuro(num):
     match num:
         case 1:
-            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            reproducir_mp3(r"C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
             
         case 2:
             reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\2.mp3")

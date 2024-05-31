@@ -1,106 +1,166 @@
+from pydub import AudioSegment
+from pydub.playback import play
+import mediapy as media
+
+def reproducir_mp3(archivo_mp3):
+    # Cargar el archivo MP3
+    sonido = AudioSegment.from_mp3(archivo_mp3)
+    # Reproducir el archivo MP3
+    play(sonido)
+
 
 def predicciones_del_futuro(num):
     match num:
         case 1:
-            return "Hoy es un buen día para tomar decisiones importantes en tu vida."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 2:
-            return "Te encontrarás con alguien inesperado que te traerá buenas noticias."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\2.mp3")
+            
         case 3:
-            return "Es momento de ser más paciente y comprensivo con tus seres queridos."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\3.mp3")
+            
         case 4:
-            return "Pronto tendrás la oportunidad de viajar a un lugar que siempre has querido visitar."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 5:
-            return "Tu creatividad estará en su punto máximo esta semana; aprovecha esa energía."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 6:
-            return "Un proyecto en el que has estado trabajando dará frutos más pronto de lo que esperas."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 7:
-            return "Deja atrás el pasado y enfócate en construir un futuro brillante."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 8:
-            return "Un viejo amigo reaparecerá en tu vida y te recordará buenos momentos."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 9:
-            return "Es importante cuidar de tu salud física y mental en los próximos días."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 10:
-            return "Una nueva oportunidad laboral se presentará; mantén los ojos abiertos."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 11:
-            return "Alguien cercano a ti necesita tu apoyo; no dudes en brindárselo."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 12:
-            return "Tu intuición será tu mejor guía en los próximos días."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 13:
-            return "Un cambio positivo en tu entorno te llenará de energía."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 14:
-            return "Dedica tiempo a tus pasatiempos favoritos para recargar energías."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 15:
-            return "Una conversación pendiente te traerá claridad y paz."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 16:
-            return "Un nuevo amor podría estar a la vuelta de la esquina."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 17:
-            return "Es el momento perfecto para aprender algo nuevo."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 18:
-            return "Tu esfuerzo y dedicación serán reconocidos pronto."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 19:
-            return "Encuentra el equilibrio entre el trabajo y el descanso."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 20:
-            return "Una sorpresa agradable te espera en tu hogar."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 21:
-            return "Confía en tus habilidades para superar cualquier obstáculo."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 22:
-            return "Es un buen momento para reorganizar tus finanzas."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 23:
-            return "Recibirás un consejo valioso de una persona mayor."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 24:
-            return "La suerte estará de tu lado en un asunto importante."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 25:
-            return "Es un buen momento para hacer las paces con alguien."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 26:
-            return "Una noticia inesperada cambiará tus planes."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 27:
-            return "Dedica tiempo a reflexionar sobre tus metas a largo plazo."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 28:
-            return "Un encuentro fortuito abrirá nuevas oportunidades."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 29:
-            return "Es el momento de dejar ir lo que no te hace feliz."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 30:
-            return "Tu energía positiva atraerá buenas vibraciones."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 31:
-            return "Un reto profesional te ayudará a crecer."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 32:
-            return "Dedica tiempo a la meditación y al autoconocimiento."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 33:
-            return "Un regalo inesperado te alegrará el día."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 34:
-            return "La comunicación será clave para resolver un conflicto."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 35:
-            return "Es un buen momento para invertir en tu educación."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 36:
-            return "Una reunión familiar te llenará de alegría."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 37:
-            return "Escucha tu corazón en decisiones sentimentales."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 38:
-            return "Tu creatividad encontrará una nueva forma de expresarse."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 39:
-            return "Un cambio en tu rutina traerá frescura a tu vida."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 40:
-            return "Es el momento de establecer nuevas metas."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 41:
-            return "Una sorpresa romántica te espera."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 42:
-            return "Un proyecto colaborativo será muy exitoso."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 43:
-            return "Tendrás una oportunidad para reconciliarte con un amigo."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 44:
-            return "Es un buen momento para iniciar una actividad física."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 45:
-            return "Una persona influyente notará tu talento."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 46:
-            return "Pronto recibirás una invitación a un evento especial."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 47:
-            return "Tu capacidad de adaptación te ayudará a superar un desafío."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 48:
-            return "Un viaje corto te traerá nuevas perspectivas."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 49:
-            return "Es un buen momento para realizar cambios en tu hogar."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 50:
-            return "Tu amabilidad será recompensada de manera inesperada."
+            reproducir_mp3("C:\Users\Turing\Documents\merline\merline\Audios\1.mp3")
+            
         case 51:
             return "Un nuevo pasatiempo te llenará de satisfacción."
         case 52:
